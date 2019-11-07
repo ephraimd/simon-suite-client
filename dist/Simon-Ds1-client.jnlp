@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Simon-Ds1-client.jnlp">
+  <information>
+    <title>Simon-Ds1-client</title>
+    <vendor>Epraphim Adedamola</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Simon-Ds1-client.jar" size="321503" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Simon-Ds1-client" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="simonds1_client.SimonCore"  name="Simon-Ds1-client" />
+  <update check="always"/>
+</jnlp>
